@@ -1,0 +1,74 @@
+{
+  "coeurExos": [
+    {
+      "title": "Pull up",
+      "imgName": "pullup.png"
+    },
+    {
+      "title": "One arm hanging",
+      "imgName": "one-arm-hang.jpg"
+    },
+    {
+      "title": "Diamond push-ups",
+      "imgName": "push-up.png"
+    },
+    {
+      "title": "Pike push ups",
+      "imgName": "Pike-Push-up.jpg"
+    }
+  ],
+  "piqueExos": [
+    {
+      "title": "Low pull up shrugs",
+      "imgName": "pullup-shrugs.jpg"
+    },
+    {
+      "title": "One arm scapula shrug",
+      "imgName": "one-arm-hang.jpg"
+    },
+    {
+      "title": "Archer push up",
+      "imgName": "archer-push-up.jpg"
+    },
+    {
+      "title": "Front lever raises",
+      "imgName": "front-lever-raise.jpg"
+    }
+  ],
+  "trefleExos": [
+    {
+      "title": "Biceps pull ups",
+      "imgName": "supination-pullup.jpg"
+    },
+    {
+      "title": "One arm band pull ups",
+      "imgName": "assisted-one-arm-pullup.jpg"
+    },
+    {
+      "title": "Dips shrugs",
+      "imgName": "dips-shrugs.jpg"
+    },
+    {
+      "title": "Skull crusher",
+      "imgName": "skullcrusher.jpg"
+    }
+  ],
+  "carreauExos": [
+    {
+      "title": "Tucked pull up",
+      "imgName": "tucked-pullup.jpg"
+    },
+    {
+      "title": "Inverted shrugs",
+      "imgName": "inverted-shrug.jpg"
+    },
+    {
+      "title": "Dips",
+      "imgName": "dips.jpg"
+    },
+    {
+      "title": "Pull-up commando",
+      "imgName": "pullup-commando.jpg"
+    }
+  ]
+}

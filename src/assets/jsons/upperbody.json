@@ -1,0 +1,74 @@
+{
+    "coeurExos": [
+        {
+          "title": "Push-ups",
+          "imgName": "push-ups.gif"
+        },
+        {
+          "title": "Diamond Push-ups",
+          "imgName": "diamond-pu.gif"
+        },
+        {
+          "title": "Hindu push-ups",
+          "imgName": "hindu-pu.gif"
+        },
+        {
+          "title": "Typewriter push-ups",
+          "imgName": "typewriter.gif"
+        }
+      ],
+      "piqueExos": [
+        {
+          "title": "Pike push-ups",
+          "imgName": "pike.gif"
+        },
+        {
+          "title": "Side plank",
+          "imgName": "sideplank.jpg"
+        },
+        {
+          "title": "T plank side to side",
+          "imgName": "plank-rotation.gif"
+        },
+        {
+          "title": "Shoulder taps",
+          "imgName": "Shoulder-taps.gif"
+        }
+      ],
+      "trefleExos": [
+        {
+          "title": "Plank up",
+          "imgName": "plank-up.gif"
+        },
+        {
+          "title": "Superman",
+          "imgName": "superman.gif"
+        },
+        {
+          "title": "Snow angels",
+          "imgName": "snow-angel.gif"
+        },
+        {
+          "title": "Plank",
+          "imgName": "plank.jpg"
+        }
+      ],
+      "carreauExos": [
+        {
+          "title": "Jumping jacks",
+          "imgName": "jumping-jack.gif"
+        },
+        {
+          "title": "Arm circles",
+          "imgName": "Arm-circles.gif"
+        },
+        {
+          "title": "Shoulder shrugs",
+          "imgName": "Shoulder-shrugs.gif"
+        },
+        {
+          "title": "Raise the roof",
+          "imgName": "raise-the-roof.gif"
+        }
+      ]
+}

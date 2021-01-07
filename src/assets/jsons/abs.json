@@ -1,0 +1,98 @@
+[
+    {
+      "title": "Crunches",
+      "imgName": "crunches.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Bicycle crunches",
+      "imgName": "bicycle-crunches.jpg",
+      "location": ["Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Curl up",
+      "imgName": "curl-ups.jpg",
+      "location": ["Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "L toe touches",
+      "imgName": "l-toe-touches.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Side crunches",
+      "imgName": "side-crunch.jpeg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Side planks",
+      "imgName": "sideplank.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Rotating plank hips",
+      "imgName": "rotating-plank-hips.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Oblique crunch",
+      "imgName": "oblique-crunch.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Lying leg raises",
+      "imgName": "lying-leg-raises.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Leg scissors",
+      "imgName": "leg-scissors.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Reverse crunch",
+      "imgName": "reverse-crunch.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Leg raises",
+      "imgName": "leg-raise.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Toe touches",
+      "imgName": "toe-touches.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "V-up",
+      "imgName": "v-up.png",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Plank",
+      "imgName": "plank.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Plank knees in",
+      "imgName": "plank-knees-in.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    }
+]

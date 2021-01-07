@@ -1,0 +1,74 @@
+{
+    "coeurExos": [
+      {
+        "title": "Walking lunges",
+        "imgName": "walking-lunge.jpg"
+      },
+      {
+        "title": "Bulgarian split squat",
+        "imgName": "Bulgarian-Split-Squat.jpg"
+      },
+      {
+        "title": "Single leg hip thrust",
+        "imgName": "Single-leg-hip-thrust.jpg"
+      },
+      {
+        "title": "Jumped Squat",
+        "imgName": "jump-squat.jpg"
+      }
+    ],
+    "piqueExos": [
+      {
+        "title": "Knee push-ups",
+        "imgName": "knee-pushup.jpg"
+      },
+      {
+        "title": "Pompes pike",
+        "imgName": "Pike-Push-up.jpg"
+      },
+      {
+        "title": "inclined push-up",
+        "imgName": "inclince-pushup.jpg"
+      },
+      {
+        "title": "Slow T rotation on elbow",
+        "imgName": "plank-t-rotation.jpg"
+      }
+    ],
+    "trefleExos": [
+      {
+        "title": "Inverted row",
+        "imgName": "inverted-row.jpg"
+      },
+      {
+        "title": "Plank back shrug",
+        "imgName": "plank-back-shrug.jpg"
+      },
+      {
+        "title": "Rear delt flyes with dumbbell",
+        "imgName": "Flye.jpg"
+      },
+      {
+        "title": "Reverse snow angels",
+        "imgName": "reverse-snow-angel.png"
+      }
+    ],
+    "carreauExos": [
+      {
+        "title": "Biceps curl",
+        "imgName": "biceps-curl.jpg"
+      },
+      {
+        "title": "Bench dips",
+        "imgName": "bench-dips.jpg"
+      },
+      {
+        "title": "Abs Reverse crunch",
+        "imgName": "reverse-crunch.jpg"
+      },
+      {
+        "title": "Calves raise",
+        "imgName": "Calf-Raises-Basic.jpg"
+      }
+    ]
+  }
