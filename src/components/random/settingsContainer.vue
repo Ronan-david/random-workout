@@ -3,48 +3,52 @@
         <h3 class="main__title">Choose your settings</h3>
         <section class="setting__container"> 
             <p class="setting__title">{{settings[0].title}}</p>
-            <div v-for="(choice, index) in settings[0].choices" :key="index">  
+            <div v-for="(choice, index) in settings[0].choices" :key="index" class="setting__input">  
                 <input
                     type="radio"
                     :id="choice"
                     :value="choice"
                     v-model="checkedLocationSetting"
+                    class="setting__radio"
                 >
                 <label :for="choice">{{choice}}</label>
             </div>
         </section>
         <section class="setting__container"> 
             <p class="setting__title">{{settings[1].title}}</p>      
-            <div v-for="(choice, index) in settings[1].choices" :key="index">  
+            <div v-for="(choice, index) in settings[1].choices" :key="index" class="setting__input">  
                 <input
                     type="radio"
                     :id="choice"
                     :value="choice"
                     v-model="checkedLevelSetting"
+                    class="setting__radio"
                 >
                 <label :for="choice">{{choice}}</label>
             </div>
         </section>
         <section class="setting__container"> 
             <p class="setting__title">{{settings[2].title}}</p>      
-            <div v-for="(choice, index) in settings[2].choices" :key="index">  
+            <div v-for="(choice, index) in settings[2].choices" :key="index" class="setting__input">  
                 <input
                     type="checkbox"
                     :id="choice"
                     :value="choice"
                     v-model="checkedMusclesSetting"
+                    class="setting__checkbox"
                 >
                 <label :for="choice">{{choice}}</label>
             </div>
         </section>
         <section class="setting__container"> 
             <p class="setting__title">{{settings[3].title}}</p>      
-            <div v-for="(choice, index) in settings[3].choices" :key="index">  
+            <div v-for="(choice, index) in settings[3].choices" :key="index" class="setting__input">  
                 <input
                     type="radio"
                     :id="choice"
                     :value="choice"
                     v-model="checkedTimingSetting"
+                    class="setting__radio"
                 >
                 <label :for="choice">{{choice}}</label>
             </div>
@@ -78,7 +82,7 @@ export default {
                 },
                 {
                     title: "Exercice timing (secondes)",
-                    choices: ["20", "30", "45", "60"]
+                    choices: [20, 30, 45, 60]
                 }
             ],
             checkedLocationSetting: [],
@@ -115,14 +119,31 @@ export default {
         margin-bottom: 5vh;
     }
     &__title {
-        background: #80d6ff;
-        height: 2rem;
-        color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        margin: 0 0 2vh 0;
+        height: 2rem;
+        width: 95%;
+        border-radius: 5px;
+        font-weight: 600;
+        margin: 0 auto;
+        margin-bottom: 2vh;
+        color: $font-color;
+        background: $bg-color;
+        box-shadow: $button-shadow-curved;
+    }
+
+    &__input{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    &__radio, &__checkbox {
+        width:1.25rem;
+        height:1.2rem;
+        box-shadow: $button-shadow-curved;
+        cursor: pointer;
     }
 }
 </style>

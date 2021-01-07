@@ -1,25 +1,26 @@
 <template>
     <section class="exo">
-        <nav class="navigation">
-            <img class="logo" src="@/assets/logo.png">
-        </nav>
-        <h2 class="exo__title">{{exo.title}}</h2>
-        <timer
-            :start-again="startAgain"
-            @reset-start="reset"
-            :time-limit="getChosenSettings.timing"
-        />
-        <img
-            class="exo__img"
-            :src="require(`@/assets/exos/${exo.imgName}`)"
-        >
-        <footer-bar :button="'Shuffle'" @next-exo="changeExo"/>
+        <loading-page v-if="loading" @end-loader="endingLoading"/>
+        <div v-else class="exo__container">
+            <h2 class="exo__title">{{exo.title}}</h2>
+            <timer
+                :start-again="startAgain"
+                @reset-start="reset"
+                :time-limit="getChosenSettings.timing"
+            />
+            <img
+                class="exo__img"
+                :src="require(`@/assets/exos/${exo.imgName}`)"
+            >
+            <footer-bar :button="'Shuffle'" @next-exo="changeExo"/>
+        </div>
     </section>
 </template>
 <script>
 
 import { mapGetters } from 'vuex'
 import allWorkouts from '@/assets/jsons/index.js'
+import loadingPage from '../loadingPage'
 import footerBar from './footerbar'
 import timer from '../timer'
 
@@ -27,10 +28,12 @@ export default {
     name: "exericesHolder",
     components: {
         footerBar,
+        loadingPage,
         timer
     },
     data () {
         return {
+            loading: true,
             workoutExos: [],
             numberOfExos: 0,
             exo: null,
@@ -67,6 +70,9 @@ export default {
         },
         startTimer() {
             this.timerInterval = setInterval(() => (this.timePassed += 1), 1000);
+        },
+        endingLoading (value) {
+            this.loading = value
         }
     },
     computed: {
@@ -95,18 +101,33 @@ export default {
     align-items: center;
     position: relative;
 
+    &__container {
+        width: 95%;
+    }
+
     &__title {
-        position: absolute;
-        top: 50px;
-        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+        border-radius: 5px;
+        font-weight: 600;
+        margin: 0 auto;
+        margin-bottom: 2vh;
+        margin-top:3vh;
+        color: $font-color;
+        background: $button-bg-color-flat;
+        box-shadow: $button-shadow-flat;
     }
 
     &__img {
-        width:100%;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
+        width: 95%;
+        border-radius: 5px;
+        max-height: 40vh;
+        margin: 0 auto;
+        margin-top: 3vh;
+        margin-bottom:2vh;
+        box-shadow: $button-shadow-flat;
     }
 }
 </style>

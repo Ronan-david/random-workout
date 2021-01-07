@@ -120,10 +120,10 @@ export default {
     position: relative;
     width: 100px;
     height: 100px;
-    position: absolute;
-    right: 0;
-    top: 50px;
-    z-index: 1;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: $button-bg-color-incurved;
+    box-shadow: $button-shadow-incurved;
 
     &__circle {
         fill: none;
@@ -131,8 +131,8 @@ export default {
     }
 
     &__path-elapsed {
-        stroke-width: 7px;
-        stroke:grey;
+        stroke-width: 9px;
+        stroke:rgb(250, 250, 250);
     }
 
     &__label {
@@ -147,12 +147,12 @@ export default {
     }
 
     &__path-remaining {
-        stroke-width: 7px;
+        stroke-width: 9px;
         stroke-linecap: round;
         transform: rotate(90deg);
         transform-origin: center;
         transition: 1s linear all;
-        stroke: rgb(65, 184, 131);
+        stroke:$font-color;
     }
     
     &__svg {

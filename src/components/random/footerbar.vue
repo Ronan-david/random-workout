@@ -36,42 +36,32 @@ export default {
 </script>
 <style lang="scss">
     .footer {
-        width: 100%;
-        height:6vh;
-        background-color: #0077c1;
-        position: absolute;
-        bottom: 0;
-
+        background: $bg-color;
+        padding: 0 0 1rem 0;
+        
         .action {
-            top:0;
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, -50%);
             width:50px;
             height:50px;
             border-radius: 50%;
             cursor: pointer;
-            transition: all .2s ease-in-out; 
-            border: 10px solid #0077c1;
+            transition: all .2s ease-in-out;
+            margin: 0 auto;
+            color: $font-color;
+            background: $button-bg-color-incurved;
+            box-shadow: $button-shadow-incurved;
 
             &--start {
-                background-color: #004c90;
-                color: white;
                 font-weight:600;
                 display: flex;
                 align-items: center;
                 justify-content: center;
 
                 &:active {
-                    background-color: #42a5f4;
                 }
             }
 
             &--next {
-                background-color: #0077c1;
-
                 &:active {
-                    background-color: #42a5f4;
                 }  
             }   
         }

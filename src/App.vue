@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <nav class="navigation" v-if="$route.path !== '/'">
+      <span v-html="'<'" class="button__small" @click="$router.go(-1)"/>
+      <img class="logo" src="@/assets/logo.png" @click="$router.push('/')">
+    </nav>
     <router-view></router-view>
   </div>
 </template>
@@ -50,8 +54,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin: 0 auto;
-  color: #2c3e50;
-  background: #ffffff;
+  color: $font-color;
+  background: $bg-color;
   max-width: 500px;
   width: 100%;
   height: 100%;
@@ -67,6 +71,22 @@ html {
   height: 100%;
 }
 
+.navigation {
+    width:100%;
+    height:3rem;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      height: 100%;
+      cursor: pointer;
+    }
+}
+
 .button {
   display:inline-block;
   padding:.75rem .9375rem;
@@ -78,17 +98,23 @@ html {
   transition: all 0.2s;
   font-weight: 600;
   width: 35%;
-  color: #ffffff;
   cursor: pointer;
-  background: #0077c2;
+  color: $font-color;
+  background: $button-bg-color-incurved;
+  box-shadow: $button-shadow-incurved;
 
-  &--disabled {
-    background: #e6e6e6;
-    color: #b2b2b2;
-    cursor: not-allowed;
-  }
-  &__stop {
-    background: #da5111;
+  &__small {
+    position: absolute;
+    left:10px;
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    background: $button-bg-color-incurved;
+    box-shadow: $button-shadow-incurved;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
 }
 </style>

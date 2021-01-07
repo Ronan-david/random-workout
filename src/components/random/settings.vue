@@ -1,11 +1,10 @@
 <template>
-    <main class="main">
-        <nav class="navigation">
-            <img class="logo" src="../../assets/logo.png">
-        </nav>
-        <settings-container :ready-to-go="letsGo" />
+    <div>
+        <main class="main">
+            <settings-container :ready-to-go="letsGo" />
+        </main>
         <footerbar :button="'Start'" @start-workout="startWorkout" />
-    </main>
+    </div>
 </template>
 <script>
 
@@ -32,20 +31,8 @@ export default {
 </script>
 <style lang="scss">
 .main {
-    height: 100%;
     display: flex;
     flex-flow: column;
     position: relative;
-}
-.navigation {
-    width:100%;
-    height:3rem;
-    text-align: center;
-    background: #42a5f4;
-    z-index: 1;
-
-    .logo {
-        height: 100%;
-    }
 }
 </style>
