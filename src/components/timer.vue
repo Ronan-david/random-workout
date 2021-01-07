@@ -123,6 +123,7 @@ export default {
     position: absolute;
     right: 0;
     top: 50px;
+    z-index: 1;
 
     &__circle {
         fill: none;

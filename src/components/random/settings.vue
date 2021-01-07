@@ -42,6 +42,7 @@ export default {
     height:3rem;
     text-align: center;
     background: #42a5f4;
+    z-index: 1;
 
     .logo {
         height: 100%;

@@ -98,6 +98,7 @@ export default {
     &__title {
         position: absolute;
         top: 50px;
+        z-index: 1;
     }
 
     &__img {
