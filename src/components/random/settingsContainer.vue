@@ -77,7 +77,7 @@ export default {
                     choices: ["Beginner", "Confirmed", "Advanced"]
                 },
                 {
-                    title: "Muscle groups (4 max)",
+                    title: "Muscle groups",
                     choices: ["Abs", "Back", "Arms", "Chest", "Legs"]
                 },
                 {
@@ -142,7 +142,6 @@ export default {
     &__radio, &__checkbox {
         width:1.25rem;
         height:1.2rem;
-        box-shadow: $button-shadow-curved;
         cursor: pointer;
     }
 }

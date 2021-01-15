@@ -3,18 +3,18 @@
       "title": "Crunches",
       "imgName": "crunches.jpg",
       "location": ["Home", "Outside", "Gym"],
-      "level": ["Confirmed", "Advanced"]
+      "level": ["Beginner", "Confirmed", "Advanced"]
     },
     {
       "title": "Bicycle crunches",
       "imgName": "bicycle-crunches.jpg",
-      "location": ["Outside", "Gym"],
+      "location": ["Home", "Outside", "Gym"],
       "level": ["Beginner", "Confirmed", "Advanced"]
     },
     {
       "title": "Curl up",
       "imgName": "curl-ups.jpg",
-      "location": ["Outside", "Gym"],
+      "location": ["Home", "Outside", "Gym"],
       "level": ["Beginner", "Confirmed", "Advanced"]
     },
     {

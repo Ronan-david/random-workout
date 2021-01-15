@@ -2,20 +2,24 @@
     <footer class="footer">
         <span
             v-if="button === 'Start'"
-            class="action action--start"
+            class="action"
+            :class="!readyToGo ? 'action--stop' : 'action--start'"
             @click="startWorkout"
         >
         {{button}}
         </span>
-        <img
+        <span
             v-else
             class="action action--next"
-            src="@/assets/img/shuffle.png"
+            v-html="'>'"
             @click="nextExo"
         />
     </footer>
 </template>
 <script>
+
+import { mapGetters } from 'vuex'
+
 export default {
     name: "footerbar",
     props: {
@@ -31,7 +35,16 @@ export default {
         nextExo(){
             this.$emit('next-exo')
         }
-    }
+    },
+    computed: {
+        ...mapGetters([
+            "getChosenSettings"
+        ]),
+        readyToGo () {
+            console.log(this.getChosenSettings)
+            return this.getChosenSettings.location && this.getChosenSettings.level && this.getChosenSettings.muscles && this.getChosenSettings.timing
+        }
+    },
 }
 </script>
 <style lang="scss">
@@ -49,20 +62,13 @@ export default {
             color: $font-color;
             background: $button-bg-color-incurved;
             box-shadow: $button-shadow-incurved;
-
-            &--start {
-                font-weight:600;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                &:active {
-                }
-            }
+            font-weight:600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             &--next {
-                &:active {
-                }  
+                font-size: 26px;
             }   
         }
     }

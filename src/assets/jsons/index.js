@@ -1,15 +1,11 @@
-// import fullbodyBeginner from './fullbodyBeginner'
-// import fullbodyIntermediate from './fullbodyIntermediate'
 import abs from './abs'
-// import muscles from './abs'
-// import cardio from './cardio'
-// import upperbody from './upperbody'
-// import supersetPullPush from './superset-pull-push'
+import back from './back'
+import chest from './chest'
 const allworkouts = [
     {name: 'Abs', value: abs},
-    {name: 'Back', value: abs},
+    {name: 'Back', value: back},
     {name: 'Arms', value: null},
-    {name: 'Chest', value: null},
+    {name: 'Chest', value: chest},
     {name: 'Legs', value: null},
 ]
 

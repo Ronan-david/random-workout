@@ -1,0 +1,164 @@
+[
+    {
+      "title": "Archer push-up",
+      "imgName": "archer-push-up.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Diamond push-up",
+      "imgName": "diamond-pu.gif",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Dips",
+      "imgName": "dips.jpg",
+      "location": ["Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Hindu push-up",
+      "imgName": "hindu-pu.gif",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Incline push-up",
+      "imgName": "incline-pushup.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner"]
+    },
+    {
+      "title": "Inverted Row",
+      "imgName": "inverted-row.jpg",
+      "location": ["Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Pike push-up",
+      "imgName": "pike.gif",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Typewriter push-up",
+      "imgName": "typewriter.gif",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Lying leg raises",
+      "imgName": "lying-leg-raises.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Plank rotations",
+      "imgName": "plank-t-rotation.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed"]
+    },
+    {
+      "title": "Decline push-up",
+      "imgName": "decline-pu.png",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+      "title": "Dumbbel Pullover",
+      "imgName": "dumbbell-pullover.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Pec Deck Flye",
+      "imgName": "pec-deck-flye.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Decline Bench Press",
+      "imgName": "decline-bench-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Cable Crossover",
+      "imgName": "cable-crossover.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Dumbbell Bench Press",
+      "imgName": "dumbbell-bench-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Incline Dumbbell Flye",
+      "imgName": "incline-dumbbell-flye.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Incline Bench Press",
+      "imgName": "incline-bench-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Reverse-Grip Bench Press",
+      "imgName": "reverse-grip-bench-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Bench Press",
+      "imgName": "bench-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Lower-Pulley Cable Crossover",
+      "imgName": "lower-pulley-cable-cross.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Lying One-Arm Landmine Press",
+      "imgName": "land-mine.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Bench Press",
+      "imgName": "bench-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Incline Cable Flye",
+      "imgName": "incline-cable-flye.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Alternating Flat-Bench Dumbbell Press",
+      "imgName": "alternating-flat-db-press.jpg",
+      "location": ["Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "Gliding Disc Flye",
+      "imgName": "valslide-flye.jpg",
+      "location": ["Home", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    },
+    {
+      "title": "TRX Push-Up",
+      "imgName": "trx-push-up.jpg",
+      "location": ["Home", "Outside", "Gym"],
+      "level": ["Confirmed", "Advanced"]
+    }
+]

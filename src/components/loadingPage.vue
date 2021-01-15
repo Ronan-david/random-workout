@@ -39,6 +39,7 @@ export default {
         &__numbers{
             font-size: 6rem;
             font-weight: 600;
+            text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 7px;
         }
     }
     .time{

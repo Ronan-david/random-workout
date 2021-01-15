@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Assisted Pull-Up Machine",
+        "imgName": "assisted-pullup-machine.jpg",
+        "location": ["Gym"],
+        "level": ["Beginner"]
+    },
+    {
+        "title": "T-Bar Row",
+        "imgName": "t-bar-row.jpg",
+        "location": ["Gym"],
+        "level": ["Confirmed", "Advanced"]
+    },
+    {
+        "title": "Low Seated Row",
+        "imgName": "low-seated-row.jpg",
+        "location": ["Gym"],
+        "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+        "title": "Back Extension",
+        "imgName": "back-extension.jpg",
+        "location": ["Home", "Gym"],
+        "level": ["Beginner", "Confirmed", "Advanced"]
+    },
+    {
+        "title": "Quad Superman",
+        "imgName": "quad-superman.jpg",
+        "location": ["Home", "Outside", "Gym"],
+        "level": ["Beginner"]
+    },
+    {
+        "title": "One Leg Front Bridge",
+        "imgName": "one-leg-front-bridge.jpg",
+        "location": ["Home", "Outside", "Gym"],
+        "level": ["Beginner"]
+    },
+    {
+        "title": "Y Extension",
+        "imgName": "y-extension.jpg",
+        "location": ["Home", "Gym"],
+        "level": ["Beginner"]
+    },
+    {
+        "title": "Dumbbell Romanian Deadlift",
+        "imgName": "romanian-db-deadlift.jpg",
+        "location": ["Gym"],
+        "level": ["Confirmed", "Advanced"]
+    },
+    {
+        "title": "Deadlift",
+        "imgName": "deadlift.jpg",
+        "location": ["Gym"],
+        "level": ["Confirmed", "Advanced"]
+    },
+    {
+        "title": "Pull-up",
+        "imgName": "pullup.png",
+        "location": ["Home", "Outside", "Gym"],
+        "level": ["Beginner", "Confirmed", "Advanced"]
+    }
+]
