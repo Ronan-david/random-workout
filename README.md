@@ -1,5 +1,9 @@
 # random-workout
 
+A small Vue.js project, designed in Neumorphism to help people with their workout. Choose your muscle group(s), your location (home, outside, the gym), the timing of the exercices and let the app propose to you random exercices to do.
+
+Available here : https://ronan-david.github.io/random-workout/#/
+
 ## Project setup
 ```
 npm install
